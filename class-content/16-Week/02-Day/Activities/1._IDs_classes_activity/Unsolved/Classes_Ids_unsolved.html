@@ -1,0 +1,64 @@
+<!--
+Hello class!
+The goal of this exercise is to practice targetting elements (HTML elements on a page) with Classes and Id's.
+
+@TODO:
+- Read the documentation on Classes and ID's below
+- IDs documentation - https://www.w3schools.com/html/html_id.asp
+- Classes Documentation - https://www.w3schools.com/html/html_classes.asp
+- Read the instructions
+
+INSTRUCTIONS:
+- Add the class="employeeCard" to the div elements on line 47 and 54 to the other divs that don't have the class.
+- Let's add some styles to the class employee-card.
+- Add the following css properties to .employee_card on line 7 in index.css located in your css folder
+  text-align: center;
+  width: 300px;
+  background-color: #E5E5E5;
+  padding: 20px;
+  margin: 20px;
+- Notice how everything with the class gets the same styles.
+- Great so our container is looking better but what if we want to style a element individually?
+- Let's use an ID to target each profile seperately
+- Say we want to customize the text in only one of our identifiers. In this case our ID is named profile1. Write a selector targets the id profile in index.css
+- add font-family: helvetica, arial, sans-serif
+- Refresh your page and see the difference
+
+
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title></title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/index.css">
+  </head>
+  <body>
+  <div class="employeeCard">
+    <div id="profile1">
+      <img src="images/profilePic-01.png">
+      <h3>Sarah Conner</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+  </div> 
+  <div class="">
+    <div id="">
+      <img src="images/profilePic-02.png">
+      <h3>Jack Nicolson</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+  </div>
+  <div class="">
+    <div id="">
+      <img src="images/profilePic-03.png">
+      <h3>Jane Doe</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+  </div>
+
+
+  </body>
+</html>

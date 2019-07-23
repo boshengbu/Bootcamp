@@ -1,0 +1,21 @@
+
+.employee-card {
+  text-align: center;
+  width: 300px;
+  background-color: #E5E5E5;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  display: inline-block;
+}
+#profile1 {
+  font-family: helvetica, arial, sans-serif;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+img {
+  width: 150px;
+}

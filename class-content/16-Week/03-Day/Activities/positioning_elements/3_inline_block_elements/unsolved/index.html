@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="css/index.css" rel="stylesheet" type="text/css">
+</head>
+<!--
+Instructions:
+Open index.html contained in the folder named 3_inline_block_elements  Located in Activities/positioning_elements/3_inline_block_elements/index.html
+Open this index.html file so that you can see how it looks before we style it
+Write a css selector that targets the html element with the class of inline-block
+In your selector with the class of .inline-block add the css display property of inline-block like so display: inline-block;
+Give it a padding of 15px so our nav items are centered in the container.
+Reload your page.
+In your css file write a selector that targets the html element with the class of left
+In your css file write a selector that targets the html element with the class of right
+Give both classes a height of 500px and set them to display inline block.
+Give .left the css property of background-color: lightblue;
+Give .left the css property of width: 30%;
+Give .right the css property of background-color: lightgreen;
+Give .right the css property of width: 69%;
+Reload the page and see the results.
+This technique can be used to build basic layouts but not perfectly responsive ones. We will be exploring how to do this next week.
+
+Bonus:
+Write a css selector that targets the div with the class of block_element -> .block_element {}
+Give it the css property margin-left: auto;
+Give it the css property of width: 320px;
+
+-->
+<body>
+  <nav>
+    <div class="block_element">
+      <a href="https://google.com"><div class="inline-block">Nav Item 1</div></a>
+      <a href="https://google.com"><div class="inline-block">Nav Item 1</div></a>
+      <a href="https://google.com"><div class="inline-block">Nav Item 1</div></a>
+    </div>
+  </nav>
+
+  <section class="wrapper">
+    <div class="left"></div>
+    <div class="right"></div>
+  </section>
+
+</body>
+</html>

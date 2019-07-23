@@ -1,0 +1,20 @@
+nav {
+  height: 50px;
+  background-color: lightgrey;
+}
+.inline-block {
+  padding: 15px;
+  display: inline-block;
+}
+.left {
+  display: inline-block;
+  height: 500px;
+  background-color: lightblue;
+  width: 30%;
+}
+.right {
+  display: inline-block;
+  background-color: lightgreen;
+  height: 500px;
+  width: 69%;
+}

@@ -1,0 +1,31 @@
+/*
+So now that we have our HTML written and our ID's and Classes set up lets talk about how to target them.
+
+Classes are always targeted with a .
+For example the class we have applied to all the containers of our elements is named employee-card. Therefore we target it by typing .employee-card followed by a opening and closing bracket {}
+*/
+.employeeCard {
+  /* Add the css properties here in the bracket */
+
+  /* These are two properties we have not talked about yet. If your curious as to how they work please read the documentation */
+  border-radius: 10px; /* border radius documentation - https://www.w3schools.com/css/css3_borders.asp */
+  display: inline-block; /* inline block documentation - https://www.w3schools.com/css/css_inline-block.asp */
+}
+/*
+Id's are targeted by using the # selector.
+
+The ID we are targeting is named profile1 therefore we can target it with css by typing #profile1 following by a opening and closing bracket { }
+*/
+#profile1 {
+ font-family: your fonts fonts here;
+}
+/* Write your selectors targetting your own ID's below */
+
+
+h3 {
+  font-size: 24px;
+}
+
+img {
+  width: 150px;
+}
