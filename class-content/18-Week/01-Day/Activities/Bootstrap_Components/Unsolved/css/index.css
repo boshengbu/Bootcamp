@@ -10,3 +10,10 @@ footer {
 .card {
 
 }
+
+.cardContainer {
+  margin-bottom:15px;
+}
+.container-fluid {
+  margin-top:50px;
+  margin-bottom:70px;}
