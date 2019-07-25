@@ -12,3 +12,6 @@ footer {
 .card {
   margin: 0 auto;
 }
+.navbar ul {
+  margin-left: auto; margin-right: 0 !important; 
+}
