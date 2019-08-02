@@ -1,0 +1,11 @@
+#button {
+  padding:25px;
+  background-color:blue;
+  color:white;
+  max-width:100px;
+  text-align:center;
+  cursor:pointer
+}
+#button2 {
+  display:none;
+}
