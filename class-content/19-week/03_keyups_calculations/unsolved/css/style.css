@@ -9,10 +9,11 @@ input {
 }
 div {
   padding: 15px;
-  background-color: #A0A0A0;
+  background-color: darkred;
+  color:white;
 }
 div:nth-child(even) {
-  background-color: lightgrey;
+  background-color: red;
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
